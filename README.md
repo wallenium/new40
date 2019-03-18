@@ -2,7 +2,7 @@
 Homee Extensions for NEW 4.0 project
 
 ## Status Logger ##
-Generate a new webhook for NEW 4.0. The script will log the 
+Generate a new webhook for NEW 4.0. The script will log the start and endpoint of an action.
 
 ### Strom günstig ###
 **Auslöser**
