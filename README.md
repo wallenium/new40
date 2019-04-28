@@ -21,3 +21,18 @@ Wenn *Homeegramm Strom teuer* ausgelöst wird
 Webhook
 URL: http://IP-ADRESS/new40/new_logger.php?status=ausgeschaltet
 Ohne Verzögerung
+
+## Auswertung ##
+
+### Benötigte Software ###
+R sowie am einfachsten RStudio
+
+### Anpassungen ###
+Die Summierten Verbrauchsdaten müssen im Ordner ./data/ liegen. Pfad muss im Skript angepasst werden. Zudem muss die URL zur Textdatei des Loggers oben angegeben werden.
+
+### Auswertung ###
+Skript starten, er generiert zwei Plots.
+
+### Wichtige Data Frames ###
+consumptionPerDay       Hier sind die Summierten Verbrauchswerte Billig/Teuer erfasst. Zudem die Prozentzahl des verbrauchten billgen Stroms.
+percentagePerMonthCheap Hier ist das selbe, nur auf den Monat gerechnet.
