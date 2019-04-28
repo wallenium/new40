@@ -11,7 +11,7 @@ library(lubridate)
 library(reshape2)
 
 # read the NEW file log for enable/disable of NEW 4.0 homeegramm
-times <- read.table("http://www.kompsoft.de/test/new40/NEW40-Log.txt", header = FALSE, sep = "|")
+times <- read.table("ADD URL HERE", header = FALSE, sep = "|")
 colnames(times) <- c("date", "time", "status")
 times$dtime <- paste(times$date,times$time)
 times$dtime <- as.POSIXct(times$dtime)
